@@ -1,0 +1,27 @@
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    background-image: url(media/DSCF0036.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+container{
+    max-width: 1400px;
+    margin: auto;
+
+}
