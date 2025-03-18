@@ -4,19 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
 </head>
 <body>
-    <section Contacto>
-        <form class="form">
-         <div class="form_container">
-             <h2 class="form_container">Contactame</h2>
-             <input type="text" class="form_input" placeholder="Nombre:">
-             <input type="text" class="form_input" placeholder="Email:">
-             <textarea class="form_input form_input--message" placeholder="Mensaje"></textarea>
+    <header>
+
+        <!--<p class="logo"> kenray</p>-->
+        <img class= "logo"src="media/logonegro.png"></img>
+        
     
-         </div>
-        </form>
+        <nav class="nav">
+            <ul class="nav-list">
+            <li ><a class="link" href="./biografia.html" target="_blank">Biografia</a></li>
+            <li ><a class="link" href="./porfolio.html" target="_blank">Porfolio</a></li>
+            <li ><a class="link" href="./contacto.html" target="_blank">Contacto</a></li>
+            </ul>
+            
+        </nav>
+    </header> 
+    <main>
+        <section Contacto>
+
+            <form class="form">
+
+                <div class="input_group">
+                    <h2>Contactame</h2>
+
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Nombre:">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email:">
+
+                    <label for="phone">Telefono</label>
+                    <input type="tel" name="phone" id="phone" placeholder="0000000">
+
+                    <label for="Mensaje">Mensaje</label>
+                    <textarea name="Mensaje" id="Mensaje" rows="5" cols="30" placeholder="Mensaje"></textarea>
+                </div>
+
+                <input class="btn" type="submit" value="enviar">
+
+            </form>
     
-     </section>
+        </section>
+    </main>
 </body>
 </html>
